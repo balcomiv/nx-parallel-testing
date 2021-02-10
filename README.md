@@ -1,5 +1,3 @@
-
-
 # NxParallelTesting
 
 This project was generated using [Nx](https://nx.dev).
@@ -79,8 +77,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
 
-
-
 ## ☁ Nx Cloud
 
 ### Computation Memoization in the Cloud
@@ -92,3 +88,34 @@ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidl
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
+
+# NX Commands
+
+## Generating Workspaces
+
+### New Empty Workspace
+
+- `npx --ignore-existing create-nx-workspace happynrwl --preset=empty`
+
+### New Workspace
+
+- `npx create-nx-workspace@latest <organization_name>`
+
+## Add Angular Capabilities
+
+- `ng add @nrwl/angular`
+
+## Creating an Angular Application
+
+- `ng g @nrwl/angular:app app-one`
+
+## Creating Shared Components
+
+- `ng g @nrwl/workspace:lib ui`
+- `nx g @nrwl/angular:lib lib-one --publishable`
+
+# Help
+
+## Nx Publishable Libraries
+
+- https://dev.to/agroupp/publishable-libraries-with-nx-monorepo-part-1-1ae
